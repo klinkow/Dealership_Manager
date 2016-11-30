@@ -85,7 +85,6 @@ describe(".all") do
     test_vehicle2 = Vehicle.new("Toyota", "Corolla", 1999, 'black')
     test_vehicle2.save()
     expect(Vehicle.find(test_vehicle.id())).to(eq(test_vehicle))
+    end
   end
-end
-
 end
